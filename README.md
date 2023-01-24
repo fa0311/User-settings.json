@@ -1,9 +1,10 @@
 # %AppData%/Roaming/Code/User/
 
 個人用なメモとか  
-説明できない項目は基本的に消す
+説明できない項目は基本的に消す  
+大事な情報が流出する可能性が高いので Github で公開するのはオススメできない
 
-Vimmer には役に立たない
+この README を読んでも Vimmer には役に立たない
 
 ## User/settings.json
 
