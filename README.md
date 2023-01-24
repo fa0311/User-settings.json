@@ -41,21 +41,21 @@ Material Icon Theme と vscode-icons の 2 強
 `discord.*`  
 Discord Presence 関連の日本語訳と設定  
 デフォルト設定だと全てバレるから設定は必ずしたほうが良い  
-`discord.removeRemoteRepository` とかは true のほうが良いかも  
-`discord.lowerDetailsEditing`を編集中の行数にすると AFK しているかどうかの判断材料になる
+`discord.removeRemoteRepository` は有効のほうが良いかも  
+`discord.lowerDetailsEditing`を編集中の行数にすると AFK しているか否かを他人が判断できる
 
-`trailing-spaces.*`
+`trailing-spaces.*`  
 半角スペースの色  
 このプラグインは markdown の空白も赤く表示するので目立たない白色に変更  
 エディタ上に赤色が表示されているよりも気持ちが落ち着く
 
-`remote.SSH.remotePlatform`
+`remote.SSH.remotePlatform`  
 SSH プラットフォームの設定  
 これオフにするかファイル分けてくれ  
 Github に settings.json を公開するときは注意
 
 `editor.defaultFormatter`  
-デフォルトのフォーマッタ
+デフォルトのフォーマッタ  
 prettier 1 強  
 beautify は前に使ってたけどメンテされなくなって切り替えた  
 言語別のデフォルトフォーマッタは適当
@@ -76,20 +76,19 @@ beautify は前に使ってたけどメンテされなくなって切り替え�
 ワークスペースごとに有効にしたほうが良い
 
 `githubPullRequests.pullBranch`  
-変更した時に Pull するか
+変更した時に Pull するか  
 いちいち聞かれるのが面倒だから`never`
 
-`dart.debugExternalPackageLibraries`
-`dart.debugSdkLibraries`
-
+`dart.debugExternalPackageLibraries`  
+`dart.debugSdkLibraries`  
 外部のパッケージをデバックする  
 実装を見に往くことがあるので有効
 
-`dart.showInspectorNotificationsForWidgetErrors`
+`dart.showInspectorNotificationsForWidgetErrors`  
 Widget エラーを警告する  
 邪魔だから無効
 
-`vsicons.dontShowNewVersionMessage`
+`vsicons.dontShowNewVersionMessage`  
 アップデート通知  
 邪魔だから無効
 
@@ -99,3 +98,8 @@ Widget エラーを警告する
 `pagedown`  
 ノパソ配列がクソで誤タッチしてしまうから無効  
 Vimmer じゃないので十字キーで操作
+
+## .vscode/settings.json
+
+History ディレクトリがやたら重いしエラーが大量に出る  
+静的解析は切ったほうが良い
