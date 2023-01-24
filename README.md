@@ -96,7 +96,7 @@ Widget エラーを警告する
 
 `pageup`  
 `pagedown`  
-ノパソ配列がクソで誤タッチしてしまうから無効  
+ノパソ配列がクソで誤入力してしまうから無効  
 Vimmer じゃないので十字キーで操作
 
 ## .vscode/settings.json
