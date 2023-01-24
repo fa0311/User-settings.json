@@ -1,0 +1,12 @@
+[
+  {
+    "key": "pageup",
+    "command": "-cursorPageUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "-cursorPageDown",
+    "when": "textInputFocus"
+  }
+]
