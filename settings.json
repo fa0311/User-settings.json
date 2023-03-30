@@ -52,6 +52,12 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
   "redhat.telemetry.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "cSpell.enabled": false,
@@ -59,5 +65,14 @@
   "dart.debugExternalPackageLibraries": true,
   "dart.debugSdkLibraries": true,
   "dart.showInspectorNotificationsForWidgetErrors": false,
-  "vsicons.dontShowNewVersionMessage": true
+  "vsicons.dontShowNewVersionMessage": true,
+  "cmake.configureOnOpen": true,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "diffEditor.wordWrap": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.suggestSmartCommit": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.inlineSuggest.enabled": true
 }
