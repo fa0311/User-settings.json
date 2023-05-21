@@ -16,13 +16,8 @@
   "discord.lowerDetailsEditing": "{file_name} {current_line}/{total_lines} 行",
   "discord.lowerDetailsIdling": "待機中",
   "discord.detailsDebugging": "デバッグ中",
-  "discord.removeRemoteRepository": true,
   "trailing-spaces.backgroundColor": "rgba(100,100,100,0.15)",
   "trailing-spaces.borderColor": "rgba(255,255,255,0.3)",
-  "remote.SSH.remotePlatform": {
-    "192.168.11.20": "linux",
-    "192.168.11.18": "windows"
-  },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
@@ -43,7 +38,7 @@
     "editor.defaultFormatter": null
   },
   "[dart]": {
-    "editor.rulers": [80],
+    "editor.rulers": [160],
     "editor.defaultFormatter": "Dart-Code.dart-code"
   },
   "[java]": {
@@ -74,5 +69,27 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.inlineSuggest.enabled": true
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "github.copilot.advanced": {},
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.jpg": "imagePreview.previewEditor"
+  },
+  "gitlens.codeLens.enabled": false,
+  "openapi.sortOutlines": false,
+  "remote.SSH.remotePlatform": {
+    "192.168.11.20": "linux",
+    "192.168.11.18": "windows"
+  },
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1683085415967,
+  "python.defaultInterpreterPath": "C:\\Users\\yuki\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "dart.extensionLogFile": "/Users/pyteyon/Desktop/dart-extension-log.txt"
 }
