@@ -18,50 +18,8 @@
   "discord.detailsDebugging": "デバッグ中",
   "trailing-spaces.backgroundColor": "rgba(100,100,100,0.15)",
   "trailing-spaces.borderColor": "rgba(255,255,255,0.3)",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[yaml]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  },
-  "[php]": {
-    "editor.defaultFormatter": null
-  },
-  "[dart]": {
-    "editor.rulers": [160],
-    "editor.defaultFormatter": "Dart-Code.dart-code"
-  },
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "[powershell]": {
-    "editor.defaultFormatter": "ms-vscode.powershell"
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  },
-  "redhat.telemetry.enabled": false,
   "terminal.integrated.enableMultiLinePasteWarning": false,
-  "cSpell.enabled": false,
-  "githubPullRequests.pullBranch": "never",
-  "dart.debugExternalPackageLibraries": true,
-  "dart.debugSdkLibraries": true,
-  "dart.showInspectorNotificationsForWidgetErrors": false,
   "vsicons.dontShowNewVersionMessage": true,
-  "cmake.configureOnOpen": true,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "diffEditor.wordWrap": "off",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -83,13 +41,8 @@
     "*.jpg": "imagePreview.previewEditor"
   },
   "gitlens.codeLens.enabled": false,
-  "openapi.sortOutlines": false,
   "remote.SSH.remotePlatform": {
     "192.168.11.20": "linux",
     "192.168.11.18": "windows"
   },
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1683085415967,
-  "python.defaultInterpreterPath": "C:\\Users\\yuki\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-  "dart.extensionLogFile": "/Users/pyteyon/Desktop/dart-extension-log.txt"
 }
