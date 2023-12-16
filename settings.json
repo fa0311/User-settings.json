@@ -25,17 +25,13 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "git.suggestSmartCommit": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.inlineSuggest.enabled": true,
   "github.copilot.enable": {
     "*": true
   },
   "github.copilot.advanced": {},
-  "workbench.editorAssociations": {
-    "*.md": "default",
-    "*.jpg": "imagePreview.previewEditor"
-  },
   "gitlens.codeLens.enabled": false,
   "remote.SSH.remotePlatform": {
     "192.168.11.20": "linux",
