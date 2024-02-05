@@ -1,13 +1,24 @@
 {
-    "editor.fontSize": 13,
     "workbench.iconTheme": "vscode-icons",
+    "workbench.editorAssociations": {
+        "*.md": "default",
+    },
     "window.newWindowDimensions": "inherit",
+    "editor.fontSize": 13,
     "editor.guides.bracketPairs": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
     "editor.largeFileOptimizations": false,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "*": true
+    },
+    "github.copilot.advanced": {},
+    "gitlens.codeLens.enabled": false,
     "discord.lowerDetailsDebugging": "{file_name} {current_line}/{total_lines} 行",
     "discord.detailsEditing": "編集中",
     "discord.detailsIdling": "待機中",
@@ -23,13 +34,6 @@
     "security.workspace.trust.untrustedFiles": "newWindow",
     "diffEditor.wordWrap": "off",
     "diffEditor.ignoreTrimWhitespace": false,
-    "git.suggestSmartCommit": false,
-    "editor.inlineSuggest.enabled": true,
-    "github.copilot.enable": {
-        "*": true
-    },
-    "github.copilot.advanced": {},
-    "gitlens.codeLens.enabled": false,
     "remote.SSH.useLocalServer": true,
     "remote.SSH.enableRemoteCommand": true,
     "remote.SSH.remotePlatform": {
@@ -38,8 +42,4 @@
         "ServerRoot": "linux"
     },
     "remote.SSH.suppressWindowsSshWarning": true,
-    "git.autofetch": true,
-    "workbench.editorAssociations": {
-        "*.md": "default",
-    },
 }
