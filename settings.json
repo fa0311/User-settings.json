@@ -48,11 +48,13 @@
   "remote.SSH.enableRemoteCommand": true,
   "remote.SSH.suppressWindowsSshWarning": true,
   "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "files.exclude": {
     "**/*.g.dart": true,
     "**/*.freezed.dart": true,
     "**/*.gr.dart": true,
     "**/*.mocks.dart": true,
-    "__pycache__": true
+    "__pycache__": true,
+    ".DS_Store": true
   }
 }
