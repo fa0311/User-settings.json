@@ -1,23 +1,36 @@
 {
     "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
     "workbench.editorAssociations": {
-        "*.md": "default",
+      "*.copilotmd": "vscode.markdown.preview.editor",
+      "{hexdiff}:/**/*.*": "hexEditor.hexedit",
+      "*.md": "default",
+      "*.wasm": "hexEditor.hexedit",
+      "{git,gitlens,git-graph}:/**/*.{md,csv,svg}": "default"
     },
     "window.newWindowDimensions": "inherit",
     "editor.fontSize": 13,
     "editor.guides.bracketPairs": true,
-    "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "editor.formatOnType": true,
+    "editor.formatOnType": false,
+    "editor.formatOnPaste": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
     "editor.inlineSuggest.enabled": true,
     "editor.largeFileOptimizations": false,
     "git.confirmSync": false,
     "git.suggestSmartCommit": false,
-    "git.autofetch": true,
+    "git.autofetch": "all",
     "github.copilot.enable": {
-        "*": true
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": true,
     },
-    "github.copilot.advanced": {},
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.chat.edits.codesearch.enabled": true,
     "gitlens.codeLens.enabled": false,
     "discord.lowerDetailsDebugging": "{file_name} {current_line}/{total_lines} 行",
     "discord.detailsEditing": "編集中",
@@ -27,19 +40,19 @@
     "discord.lowerDetailsEditing": "{file_name} {current_line}/{total_lines} 行",
     "discord.lowerDetailsIdling": "待機中",
     "discord.detailsDebugging": "デバッグ中",
-    "trailing-spaces.backgroundColor": "rgba(100,100,100,0.15)",
-    "trailing-spaces.borderColor": "rgba(255,255,255,0.3)",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "vsicons.dontShowNewVersionMessage": true,
     "security.workspace.trust.untrustedFiles": "newWindow",
     "diffEditor.wordWrap": "off",
-    "diffEditor.ignoreTrimWhitespace": false,
     "remote.SSH.useLocalServer": true,
     "remote.SSH.enableRemoteCommand": true,
-    "remote.SSH.remotePlatform": {
-        "192.168.11.20": "linux",
-        "192.168.11.18": "windows",
-        "ServerRoot": "linux"
-    },
     "remote.SSH.suppressWindowsSshWarning": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.exclude": {
+      "**/*.g.dart": true,
+      "**/*.freezed.dart": true,
+      "**/*.gr.dart": true,
+      "**/*.mocks.dart": true,
+      "__pycache__": true
+    }
 }

@@ -1,12 +1,18 @@
 [
   {
     "key": "pageup",
-    "command": "-cursorPageUp",
-    "when": "textInputFocus"
+    "command": "-cursorPageUp"
   },
   {
     "key": "pagedown",
-    "command": "-cursorPageDown",
-    "when": "textInputFocus"
+    "command": "-cursorPageDown"
+  },
+  {
+    "key": "cmd+y",
+    "command": "redo"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-redo"
   }
 ]
