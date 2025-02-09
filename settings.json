@@ -29,8 +29,6 @@
     "markdown": true,
     "scminput": true
   },
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.chat.edits.codesearch.enabled": true,
   "gitlens.codeLens.enabled": false,
   "discord.lowerDetailsDebugging": "{file_name} {current_line}/{total_lines} 行",
   "discord.detailsEditing": "編集中",
@@ -54,7 +52,7 @@
     "**/*.freezed.dart": true,
     "**/*.gr.dart": true,
     "**/*.mocks.dart": true,
-    "__pycache__": true,
-    ".DS_Store": true
+    "**/__pycache__": true,
+    "**/.DS_Store": true
   }
 }
